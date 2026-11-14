@@ -14,11 +14,11 @@ logger = logging.getLogger(__name__)
 # Kobo's relationship choices do not say whether a child, grandchild, sibling or parent is
 # male or female; openIMIS keeps them apart. The member's gender resolves them.
 GENDERED_ROLES = {
-    "own_child":     {"MALE": "SON", "FEMALE": "DAUGHTER"},
+    "own_child": {"MALE": "SON", "FEMALE": "DAUGHTER"},
     "adopted_child": {"MALE": "SON", "FEMALE": "DAUGHTER"},
-    "grandchild":    {"MALE": "GRANDSON", "FEMALE": "GRANDDAUGHTER"},
+    "grandchild": {"MALE": "GRANDSON", "FEMALE": "GRANDDAUGHTER"},
     "brother_sister": {"MALE": "BROTHER", "FEMALE": "SISTER"},
-    "parent":        {"MALE": "FATHER", "FEMALE": "MOTHER"},
+    "parent": {"MALE": "FATHER", "FEMALE": "MOTHER"},
 }
 
 UUID_PREFIX = "uuid:"
